@@ -9,6 +9,7 @@ public class HabtiManager : MonoBehaviour
     public Transform habitListContent; // Parent object for habit items
     public GameObject addHabiPanel; // Panel for adding new habit
     public TMP_InputField habitInputField; // Input field for new habit
+    public TMP_Dropdown habitFrequencyDropdown; // Dropdown for habit frequency
 
     public void OpenAddHabitPanel()
     {
@@ -33,6 +34,10 @@ public class HabtiManager : MonoBehaviour
 
             // Set the habit name in the new habit item
             newHabit.GetComponentInChildren<TMP_Text>().text = name;
+
+            string frequency = habitFrequencyDropdown.options[habitFrequencyDropdown.value].text; // Get the selected frequency from the dropdown
+            Debug.Log("Habit Frequency: " + frequency); // Log the selected frequency
+
 
             habitInputField.text = ""; // Clear the inputfield after adding the habit
             CloseAddHabitPanel(); // Close the add habit panel
