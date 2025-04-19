@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 31492d149c0d44deb835108d7031b365
+guid: bc55b3c5a3dab519ab74dfd675fcba2c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1728162343122298305
-    second: Background_text_0
+      213: 2979075870559071081
+    second: home_button_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -126,23 +126,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_text_0
+      name: home_button_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 8
-        width: 984
-        height: 1011
+        x: 0
+        y: 0
+        width: 340
+        height: 466
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 25, y: 110, z: 31, w: 114}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c5e200be7aabf710800000000000000
-      internalID: 1728162343122298305
+      spriteID: 96b6c9f68bdc75920800000000000000
+      internalID: 2979075870559071081
       vertices: []
       indices: 
       edges: []
@@ -151,7 +151,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51a0ccccb76956173b7fbb2b02640af8
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_text_0: 1728162343122298305
+      home_button_0: 2979075870559071081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

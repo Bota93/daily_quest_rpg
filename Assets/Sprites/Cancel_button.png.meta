@@ -1,10 +1,22 @@
 fileFormatVersion: 2
-guid: 31492d149c0d44deb835108d7031b365
+guid: 014d4ac1f44e280a8b1efccb8ed2183a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1728162343122298305
-    second: Background_text_0
+      213: -4848619372235502550
+    second: Cancel_button_0
+  - first:
+      213: -8877511331561020933
+    second: Cancel_button_1
+  - first:
+      213: -2507466811535103604
+    second: Cancel_button_2
+  - first:
+      213: -1823442896557147043
+    second: Cancel_button_3
+  - first:
+      213: 5749442256637695915
+    second: Cancel_button_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,13 +58,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 207, y: 231, z: 205, w: 259}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -126,23 +138,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_text_0
+      name: Cancel_button_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 8
-        width: 984
-        height: 1011
+        x: 82
+        y: 622
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 25, y: 110, z: 31, w: 114}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c5e200be7aabf710800000000000000
-      internalID: 1728162343122298305
+      spriteID: bf1ecc0aa7ebcc480800000000000000
+      internalID: -8877511331561020933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel_button_2
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 343
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c896e545830b33dd0800000000000000
+      internalID: -2507466811535103604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel_button_3
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 326
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c708ab854d1b6e0800000000000000
+      internalID: -1823442896557147043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cancel_button_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 1405
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 79, y: 229, z: 207, w: 259}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba79283454f1acf40800000000000000
+      internalID: 5749442256637695915
       vertices: []
       indices: 
       edges: []
@@ -151,8 +229,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51a0ccccb76956173b7fbb2b02640af8
-    internalID: 0
+    spriteID: 5982fa6b90bbd579dac9cf01754aea2c
+    internalID: 1210612806
     vertices: []
     indices: 
     edges: []
@@ -161,7 +239,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_text_0: 1728162343122298305
+      Cancel_button_1: -8877511331561020933
+      Cancel_button_2: -2507466811535103604
+      Cancel_button_3: -1823442896557147043
+      Cancel_button_4: 5749442256637695915
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
